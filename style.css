@@ -835,6 +835,11 @@ text-align: center;
   .form-control{
     height: 36px;
     width: 100%;
+    border-radius: 7px;
+    background: #ffffff;
+    box-shadow: 10px 14px 41px rgba(0,0,0,0.14);
+    color: #000000;
+    border: none;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -905,6 +910,13 @@ line-height: 15px;
   letter-spacing: 0.7px;
   padding-bottom: 10px;
 }
+
+#touchp {
+  font-family: "Open Sans";
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  
 
 
 }
