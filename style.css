@@ -624,6 +624,13 @@ a{
 .footer-btns{
     margin-top: 40px;
 }
+.footer-text-left{
+  color: #46494e;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 36px;
+}
 
 
 #instagram{
@@ -826,7 +833,7 @@ text-align: center;
 
 @media only screen and (max-width: 980px) {
   form {
-    width: 58%;
+    width: 88%;
   }
   .btn-send {
     width: 13.2rem;
@@ -839,7 +846,7 @@ text-align: center;
     background: #ffffff;
     box-shadow: 10px 14px 41px rgba(0,0,0,0.14);
     color: #000000;
-    border: none;
+    border: 1px solid #f8f8f8;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -851,6 +858,10 @@ text-align: center;
     line-height: 19px;
     width: 97px;
     height: 34px;
+}
+#footer-logo {
+  width: 100px;
+  height: 31px;
 }
 .provider-btn2:hover, .provider-btn2:active , .news-btn2:hover, .news-btn2:active{
     width: inherit;
@@ -910,15 +921,41 @@ line-height: 15px;
   letter-spacing: 0.7px;
   padding-bottom: 10px;
 }
+.footer-text-left{
+  color: #46494e;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
 
 #touchp {
   font-family: "Open Sans";
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 3.6rem;
   
 
 
+}
+#getp {
+  color: #0368b0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.footer-btns {
+  margin-top: 20px;
+}
+#intouch {
+  font-family: "Open Sans";
+  font-size: 3.0rem;
+  font-weight: 700;
+  line-height: 4.0rem;
 }
 @media only screen and (max-width: 768px) {
   .vid-card-sect{
