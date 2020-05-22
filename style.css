@@ -59,10 +59,12 @@ color: #070C17;
 margin-bottom: 40px;
 
 }
-.header-left{
-  width: 80%;
+.header-left {
+  width: 90%;
   float: right;
+  padding-right: 20px;
 }
+
 #header-text-2{
     font-family: Open Sans;
 font-style: normal;
