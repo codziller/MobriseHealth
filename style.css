@@ -492,10 +492,11 @@ height: 70px;
     width: 137px;
     height: 44px;
 }
-.provider-btn2-a:hover, .provider-btn2-a:active , .news-btn2-a:hover, .news-btn2-a:active{
+a > .provider-btn2:hover, a > .provider-btn2:active , a > .news-btn2:hover, a > .news-btn2:active{
     
     border: solid 1px #0368b0;
     color: #0368b0 ;
+    border-radius: 26px;
 }
 #head-logo{
     width: 204px;
@@ -564,6 +565,7 @@ text-align: center;
   height: 100%;
   background: #f8f8f8;
   position: relative;
+  bottom: 0;
 }
 
 .all-footer::after{
@@ -581,6 +583,9 @@ text-align: center;
   transform: skewY(-3deg);
 
 
+}
+.socials{
+  padding-top: 10px;
 }
 a{
     text-decoration: none;
@@ -832,7 +837,27 @@ text-align: center;
 }
 
 /*************************************\News styles******************************/
+/**********************Demo Styles*******************/
+.test-features{
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: auto;
+  text-align: center;
+}
+.demo-body-text{
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: auto;
+  text-align: center;
+}
 
+#iphoneX{
+  width: 59%;
+  height: 70%;
+  margin-bottom: 30px;
+}
 /*Media queries*/
 
 @media only screen and (max-width: 980px) {
@@ -901,6 +926,12 @@ transform: skewY(-5deg) ;
 @media only screen and (max-width: 768px) {
 #demo-cont-btns{
   margin-bottom: 25px;
+}
+.why-mob{
+  margin-bottom: 10px;
+}
+.why-mob > h1 {
+  line-height: 40px;
 }
 #header-text-2 {
   font-family: Open Sans;
@@ -1118,7 +1149,7 @@ transform: skewY(-5deg) ;
 }
 
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 606px) {
   #head-logo {
     width: 134px;
     height: 28px;
@@ -1174,7 +1205,25 @@ line-height: 15px;
   font-weight: 400;
   line-height: 16px;
 }
-
+.demo-btn2, .contact-btn2 {
+  width: 120px;
+  height: 34px;
+  border-radius: 26px;
+  border: solid 1px #0368b0;
+  color: #0368b0;
+}
+#facebook {
+  width: 10px;
+  height: 20px;
+}
+#twitter {
+  width: 14px;
+  height: 17.94px;
+}
+#instagram {
+  width: 12px;
+  height: 20px;
+}
 
 #touchp {
   font-family: "Open Sans";
@@ -1199,13 +1248,29 @@ line-height: 15px;
 }
 .socials-cont{
   padding-right: 0;
-  padding-left: 10px;
+  margin-left: -8;
+}
+.socials{
+  padding-top: 5px;
+}
+.reserved-right{
+  padding-left: 0;
+  padding-right: 0;
 }
 #intouch {
   font-family: "Open Sans";
   font-size: 3.0rem;
   font-weight: 700;
   line-height: 4.0rem;
+}
+.demo-body-text{
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: auto;
+  text-align: center;
+}
+
 }
 @media only screen and (max-width: 768px) {
   .vid-card-sect{
