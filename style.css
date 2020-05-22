@@ -680,7 +680,7 @@ a{
 }
 .vid-card > .row{
   display: flex;
-  flex-direction: row;
+  flex-direction: row !important;
 }
 .vid-card > .row > div.align-top{
   width: auto;
