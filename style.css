@@ -682,9 +682,13 @@ a{
   display: flex;
   flex-direction: row !important;
 }
-.vid-card > .row > div.align-top{
-  width: auto;
+.vid-card > .row > div.col-8{
+  width: 50% !important;
 }
+.vid-card > .row > div.col-8 > .card-block{
+  width: 140px;
+}
+
 .vid-card-text{
   margin-bottom:0 ;
   height: auto;
