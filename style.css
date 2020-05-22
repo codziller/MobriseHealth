@@ -658,6 +658,9 @@ a{
 
 
 /*************************************News styles******************************/
+.news-main{
+  overflow: hidden;
+}
 .all-news-container{
   width: 100%;
 }
@@ -683,10 +686,10 @@ a{
   flex-direction: row !important;
 }
 .vid-card > .row > div.col-8{
-  width: 50% !important;
+  width: auto;
 }
 .vid-card > .row > div.col-8 > .card-block{
-  width: 140px;
+  width: auto;
 }
 
 .vid-card-text{
