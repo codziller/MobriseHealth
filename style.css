@@ -478,10 +478,42 @@ height: 70px;
 /*/Carousel Styles*/
 
 
+/***********************Pagination style****************/
+.mid-page{
+  border: none !important;
+}
+.page-item, .page-link{
+  margin-right: 10px !important;
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #0368b0;
+  border-color: #0368b0;
+}
 
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+}
 
-
-
+#page-angle-right{
+  width: 10px;
+  height: 10px;
+}
+.pagination-nav{
+  text-align: center;
+}
 
 
 
@@ -670,10 +702,49 @@ a{
 }
 .sidebar-content{
   margin: 1px;
+  position: relative;
 }
 .post-img{
   width: 100%;
   height: auto;
+  
+}
+.head-post-text-right{
+  position: absolute;
+  z-index: 999;
+  color: #ffffff;
+  top: 60%;
+ 
+  padding-left: 20px;
+}
+.head-post-text-right > h3{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.head-post-text{
+  position: absolute;
+  z-index: 999;
+  top: 70%;
+  padding-left: 20px;
+}
+.head-post-text > h3{
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 400;
+}
+#header-time{
+  width: 10px;
+  height: 10px;
+}
+
+.head-post-text > p{
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
 }
 .vid-card{
   border: none;
@@ -708,9 +779,13 @@ font-size: 14px;
 .vid-card-title{
   color: #212121;
   font-family: Roboto;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+.web-host-card-text, .reason-body-text {
+  font-size: 17px;
+  font-weight: 700;
 }
 .vid-card-sub{
   color: #a0a0a0;
@@ -757,7 +832,7 @@ text-align: center;
 .miss-vid-card-title{
   color: #212121;
   font-family: Roboto;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: -0.1153846px;
   line-height: 21px;
@@ -860,6 +935,9 @@ text-align: center;
 .travel-time{
   width: 9.99px;
   height: 9.99px;
+}
+.news-footer{
+  margin-top: 100px;
 }
 
 /*************************************\News styles******************************/
@@ -1197,6 +1275,62 @@ transform: skewY(-5deg) ;
   width: 100%;
   height: 350px;
 }
+
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 6px 9px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+}
+
+/*****************News header texts***************/
+.head-post-text-right{
+  position: absolute;
+  z-index: 999;
+  color: #ffffff;
+  top: 50%;
+ 
+  padding-left: 20px;
+}
+.head-post-text-right > h3{
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.head-post-text{
+  position: absolute;
+  z-index: 999;
+  top: 55%;
+  padding-left: 20px;
+}
+.head-post-text > h3{
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+#header-time{
+  width: 9px;
+  height: 9px;
+}
+
+.head-post-text > p{
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+/****************\News header texts*************/
 
 }
 @media only screen and (max-width: 606px) {
