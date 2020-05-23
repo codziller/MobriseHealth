@@ -184,8 +184,8 @@ align-self: center;
 margin-top: 15px;
 }
 .card-title{
-    width: 100%;
-  height: 27px;
+    width: auto;
+  height: auto;
   font-family: "Open Sans";
   font-size: 20px;
   font-weight: 600;
@@ -195,8 +195,8 @@ margin-top: 15px;
   font-size: 17px;
 }
 .card-text{
-    width: 100%;
-  height: 88px;
+    width: auto;
+  height: auto;
   font-family: "Open Sans";
   font-size: 13px;
   font-weight: 400;
@@ -1015,7 +1015,7 @@ text-align: center;
 }
 /********************Media queries*********************/
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 767px) {
   form {
     width: 88%;
   }
@@ -1116,7 +1116,7 @@ transform: skewY(-5deg) ;
   color: #0368b0;
 }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .carousel{
     margin: 30px -7% 100px;
     padding: 0 40px;
@@ -1537,7 +1537,7 @@ line-height: 15px;
 }
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .vid-card-sect{
     width: 100%;
     margin: 0 !important;
@@ -1547,6 +1547,11 @@ line-height: 15px;
     height: 25px;
   }
   
+}
+@media only screen and (min-width: 768px) {
+.mobile-navbar{
+  display: none;
+}
 }
 
 @media only screen and (max-width: 330px) {
@@ -1561,7 +1566,7 @@ font-size: 15px;
 }
 
 /*************************News Media Query******************/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
   .vid-card-img {
     height: 100%;
@@ -1672,3 +1677,235 @@ font-size: 15px;
 }
 }
 
+/*Setting ipad nav*/
+
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+
+ 
+
+
+
+.navbar-brand {
+  float: left;
+  text-align: left;
+  position: absolute;
+
+}
+
+.navbar-collapse.collapse{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important; 
+}
+
+/*****************Ipad news header***************/
+.head-post-text > h3 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.head-post-text {
+  position: absolute;
+  z-index: 999;
+  top: 65%;
+  padding-left: 20px;
+}
+
+.head-post-text-right > h3 {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+}
+.head-post-text-right {
+  position: absolute;
+  z-index: 999;
+  color: #ffffff;
+  top: 53%;
+  padding-left: 20px;
+}
+
+.vid-card-title {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.miss-vid-card-title {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: -0.1153846px;
+  line-height: 16px;
+}
+.travel-card-title {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+/****ipad contact****/
+form {
+  width: 68%;
+}
+.btn-send {
+  width: 13.9rem;
+  height: 32px;
+}
+
+.card-text{
+  width: auto;
+height: auto;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+line-height: auto;
+text-align: center;
+
+}
+
+
+}
+/**Home card */
+@media (min-width: 576px) and (max-width: 770px){
+
+  .card-text{
+    width: auto;
+  height: auto;
+  font-family: "Open Sans";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: auto;
+  text-align: center;
+  
+  }
+  .card-title{
+    width: auto;
+  height: auto;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+  
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 958px){
+
+  /****************Colored btns*****************/
+.first-btns{
+  width: 56%;
+  height: 40px;
+  border-radius: 9px;
+  border: solid 0.5px #0368b0;
+  margin-right: 3px;
+}
+.dropright .dropdown-toggle::after {
+  vertical-align: 0;
+  width: auto;
+  height: 10px;
+}
+.middle-btns{
+  border: solid 0.5px #03b03f;
+  
+}
+.last-btns{
+  border: solid 0.5px #b00391;
+
+}
+
+
+  .btn-care{
+    color: #0368b0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+ 
+  letter-spacing: 0.3px;
+  padding-left: 7px;
+  padding-right: 0px;
+  }
+  .btn-months{
+    color: #82abc8;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 400;
+  padding-left: 0;
+  padding-right: 8px;
+  
+  }
+  .btn-care2{
+    color: #028d32;
+  }
+  .btn-months2{
+    color: #82c894;
+  }
+  .btn-care3{
+    color: #96017c;
+  }
+  .btn-months3{
+    color: #be82c8;
+  }
+ .btn-out1{
+  width: 65%;
+  height: 40px;
+  border-radius: 9px;
+  background: rgba(233,243,251,0.94);
+
+  /* Text  */
+  color: #0368b0;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+ }
+ .btn-out2{
+  color: #028d32;
+  background: rgba(233,246,236,0.94);
+ }
+ .btn-out3{
+  color: #96017c;
+  background: rgba(247,237,251,0.94);
+ }
+
+}
+@media (min-width: 500px) and (max-width: 767px){
+
+
+
+
+
+  .btn-out1{
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    background: rgba(233,243,251,0.94);
+  
+    /* Text  */
+    color: #0368b0;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+   }
+
+}
