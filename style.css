@@ -245,6 +245,16 @@ margin-top: 15px;
   line-height: 29px;
 
 }
+.arch-images{
+  width: 60px;
+  height: 50px;
+  padding-bottom: 10px;
+}
+.five-star-img{
+  width: 150px;
+  height: 25px;
+  margin-top: -5px;
+}
 
 .last-arch{
     width: auto;
@@ -844,6 +854,28 @@ text-align: center;
   font-weight: 400;
   padding-top: 29px;
 }
+.vid-card-sect-first{
+  position: relative;
+  border-top: 2px solid#eeeeee;
+  
+}
+
+.vid-card-sect-first::before{
+  content: '';
+  position: absolute;
+  background-color: #0368b0;
+  width: 10%;
+  height: 2px;
+  top: -2px;
+  left: 0;
+}
+.dont-miss-it{
+  color: #212121;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 
 .miss-vid-card{
   order: none;
@@ -938,6 +970,25 @@ text-align: center;
 }
 .news-footer{
   margin-top: 100px;
+}
+.travel-card-first{
+  position: relative;
+  border-top: 2px solid#eeeeee;
+}
+.travel-card-first::before{
+  content: '';
+  position: absolute;
+  background-color: #0368b0;
+  width: 10%;
+  height: 2px;
+  top: -2px;
+  left: 0;
+}
+#travel-up{
+  color: #212121;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 /*************************************\News styles******************************/
@@ -1267,6 +1318,13 @@ transform: skewY(-5deg) ;
     border: solid 1px #0368b0;
     color: #0368b0 ;
 }
+.dont-miss-it, #travel-up{
+  color: #212121;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 
 .header-img {
   background-image: url(images/header-img.png);
@@ -1302,7 +1360,7 @@ transform: skewY(-5deg) ;
 }
 .head-post-text-right > h3{
   font-family: Roboto;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -1315,7 +1373,7 @@ transform: skewY(-5deg) ;
 .head-post-text > h3{
   color: #ffffff;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
 }
 #header-time{
@@ -1338,6 +1396,12 @@ transform: skewY(-5deg) ;
     width: 134px;
     height: 28px;
 }
+.five-star-img{
+  width: 120px;
+  height: 20px;
+  margin-top: -5px;
+}
+
 
 .vid-card-title{
   color: #212121;
